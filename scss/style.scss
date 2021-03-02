@@ -509,7 +509,8 @@ button:focus {
                 column-count: 2;
 
                 @media (max-width: 650px) {
-                    column-count: 1;
+                    -moz-column-count: 1;
+                         column-count: 1;
                     align-items: center;
                 }
 
